@@ -8,10 +8,11 @@ Instructions
   1.npm init
   2.npm install express
   3.npm install express-edge
-  4.npm i --save bcrypt
-  5.npm i --save express-session
-  6.npm i --save connect-flash
-  7.npm i --save connect-mongo
-  8.npm i --save edge.js
+  4.npm i --save mongoose
+  5.npm i --save bcrypt
+  6.npm i --save express-session
+  7.npm i --save connect-flash
+  8.npm i --save connect-mongo
+  9.npm i --save edge.js
 6.Run the node Server and Check(http://localhost:4000)
   node index.js
