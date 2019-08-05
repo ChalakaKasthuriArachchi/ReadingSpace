@@ -1,5 +1,10 @@
-const path = require('path');
+const Post = require('../database/models/Post')
 
-module.exports = (req,res) => {
-    res.render(path.resolve(__dirname,'..','views','homePage'));
-};
+module.exports = async (req,res) => {
+    const posts = await Post.find({})
+        //ui = req.session.userId
+        res.render('index', {
+            posts
+            //,ui
+        })
+}
